@@ -71,6 +71,64 @@
       ol ol ol ol {
         list-style-type: decimal !important;
       }
+
+      .resume {
+        border-bottom: 1px solid #FF0000;
+        padding-bottom: 32px;
+        margin: 0 12px 32px 12px;
+      }
+      .resume-item {
+          border: 1px solid #F4F4F5;
+          margin-bottom: 16px;
+          
+      }
+      .resume-item__header {
+          background-color: #F4F4F5;
+          padding: 8px;
+      }
+      .resume-item__desc {
+          font-size: 14px;
+          color: #74767B;
+          padding: 8px;
+      }
+      
+      .resume-item__header,
+      .resume-item__desc {
+          box-sizing: border-box;
+          float: left;
+          width: 50%;
+      }
+      .resume-item__desc {
+          padding: 8px 8px 8px 8px;
+          display: block;
+      }
+      .resume-item:after {
+          content: "";
+          display: block;
+          clear: both;
+      }
+      
+      .help {
+          padding-bottom: 32px;
+          margin: 0 12px 0 12px;
+      }
+      
+      .help-item__a,
+      .help-item__b {
+          box-sizing: border-box;
+          float: left;
+          width: 50%;
+      }
+      .help-item__b {
+          padding: 8px 8px 8px 8px;
+          display: block;
+      }
+      .help-item:after {
+          content: "";
+          display: block;
+          clear: both;
+      }
+
       @media screen and (max-width:480px) {
         .preheader .rightColumnContent,
         .footer .rightColumnContent {
